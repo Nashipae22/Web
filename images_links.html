@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:gray;
+        }
+        header, nav, section, footer {
+            padding: 20px;
+            background-color:black;
+            color: #fff;
+            text-align: center;
+        }
+        section {
+            margin: 5px 0;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 20px;
+            justify-content: center;
+        }
+        .gallery img {
+            border-radius: 8px;
+        }
+    
+        .menu-item {
+            margin: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+           
+        }  a:link {
+         color: white;
+         background-color: transparent;
+         text-decoration: none;
+      }  a:visited {
+         color: deepskyblue;
+         background-color: transparent;
+         text-decoration: none;
+      }
+      a:active {
+         color: yellow;
+         background-color: transparent;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Image Links</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#gallery">Gallery</a> |
+        <a href="#menu">Menu</a>
+    </nav>
+    <section id="home">
+        <h2><u>Home</u></h2>
+        <p>Welcome to my website! Excited to have you visit</p>
+        <a href="https://www.open.edu/openlearn/science-maths-technology/engineering-technology/what-technology" title="Learn about Tech" target="_blank"><img src="https://imgs.search.brave.com/qeHxi9g8AHAkBqSq4WvixtP_lfUZ-QfIr6cDo9Pzijc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA0Lzk1LzA3Lzk0/LzM2MF9GXzQ5NTA3/OTQ0OV9seWFlSWVy/bFRaTjRWQ2Nzdnlx/V0I2a3ZpZ0FScHBU/WS5qcGc" alt="Technology Image"></a>
+    </section>
+    <section id="gallery">
+        <h2><u>Gallery</u></h2>
+        <div class="gallery">
+            <a href="https://greencoast.org/caring-for-the-environment/">
+                <img src="https://imgs.search.brave.com/crmBytnvK5AszqoS-L-s830IEmunfQS_JvUMTnQpQQs/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzE0LzEx/L2MxLzE0MTFjMTll/NjIyOTkwN2FlNTZj/NTExMDc3MWU2MGFk/LmpwZw"
+                 alt="Waterfall" title="Waterfall, why to take care of environment"></a>
+            <a href="https://greencoast.org/caring-for-the-environment/">
+                <img src="https://imgs.search.brave.com/XgklfvUFK8ZJoMWKWHW1B8KmyTUB9WMoMgz1iA66GLA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzBjLzUz/LzNjLzBjNTMzYzRl/MDYyZTcxZDc1MTUw/MjhhN2U4MmY2NmMy/LmpwZw" 
+                alt="Forest" title="Forest, why to take care of environment"></a>
+            <a href="https://greencoast.org/caring-for-the-environment/">
+                <img src="https://imgs.search.brave.com/Uqydpf14csOWeSpz3wDCHgsgiT41ziloU4s-Jx9Hkyo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTA5/MzY0NDY5MC9waG90/by9jb2xvcmFkby1t/b3VudGFpbi1mb3Jl/c3RzLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1ZN1FIMUQ2/ZzFrYTE1V2VoYVF3/X05WejM5RFpldzlC/WFZvcmJJV1FFNlJv/PQ" 
+                alt="Mountain" title="Mountain, why to take care of environment"></a>
+        </div>
+    </section>
+    <section id="menu">
+        <h2><u>Menu</u></h2>
+        <ul class="menu-list">
+           <a href="https://imgs.search.brave.com/E5-y6uYmCFeL4-hLBWUDgQUKoG6mXDQsUsI2tpBrfHE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNjE3/MzY0NTU0L3Bob3Rv/L2hhbWJ1cmdlci13/aXRoLWZyaWVzLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz10/OGZNSVJld05GUlU3/WVNNTldJeDJheG95/Wk5qc2gwY3hITTR2/WU1BTGY4PQ" target="_blank"> <li class="menu-item" font> Beef Burger</li></a> 
+               
+           <a href="https://imgs.search.brave.com/2p5WTUTlg9VGTWmUDx1z3IVyPQXaLRoD9h-MoDDCJTg/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTU1/NDI5Mzc3L3Bob3Rv/L3NwYWdoZXR0aS1h/bmQtbWVhdGJhbGxz/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1pQ2FHX0h0V0tB/cjc1MTdtN3JoenBu/WHZFMlZTMGNfSzA5/YkZrM1I0b19NPQ" target="_blank"> <li class="menu-item">Spaghetti meatballs</li></a>
+          
+            <a href="https://imgs.search.brave.com/Pc4gls5xgs2TWtSfBGa-N1750avUdMKxOV-Ry-sWo3M/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9oYWluYW5lc2Ut/Y2hpY2tlbi1yaWNl/LXdpdGgtZnJpZWQt/Y2hpY2tlbi1yaWNl/LXN0ZWFtZWQtY2hp/Y2tlbi1zb3VwLXdp/dGgtZnJpZWQtY2hp/Y2tlbi1hc2lhbi1m/b29kLXN0eWxlXzEz/MzktMTUzMDA5Lmpw/Zz9zaXplPTYyNiZl/eHQ9anBn" target="_blank"><li class="menu-item">Rice Chicken</li></a>
+           
+               <a href="https://imgs.search.brave.com/n6Zdk3zh-lDostZP9Npv0u6ubsBY4B04QCMyzSnsvak/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvODU2/NDIxMzYvcGhvdG8v/c2FsYWQuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPUFFY0tn/NFQ0UDV4RHBYZy1m/d0RsNzBpb1JDdFhO/dDBLaWhDRmVmby1O/UE09" target="_blank"> <li class="menu-item">Salad</li></a>
+              
+        </ul>
+    </section>
+   
+</body>
+</html>
